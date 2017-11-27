@@ -18,7 +18,7 @@ func GetCentOSCmds(conf *Config) []string {
 		s = s + "/"
 	}
 	cmds := []string{
-		"sudo yum -y makecache",
+		"sudo yum makecache",
 		"sudo yum -y install cloud-init curl wget",
 	}
 
